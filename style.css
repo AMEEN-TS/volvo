@@ -1,0 +1,149 @@
+body{
+    /*margin: 0;*/
+    height: 248vmax;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.header{
+    height: 720px;;
+    background-image: url(image/banner-2400x720-new.jpg);
+    background-size: cover;
+    background-position: center;
+
+   
+}
+
+.header-text {
+    margin-right: 228px;
+    font-weight: bold;
+    color:#fff;
+    font-size: 58px;
+    letter-spacing: 3px;
+}
+    
+
+
+
+
+
+.navbar-dark .navbar-toggler-icon{
+    background-image: url("	data:image/svg+xml,%3csvg xmlns='http://www.w3.org…dth='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.head{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #4d4e43
+    ;
+}
+.head-second{
+    font-weight: bold;
+    color: #4d4e43;
+    font-size: 35px;
+}
+.item{
+
+height: 406px;
+display: flex;
+align-items: center;
+font-style: Arial,sans-serif;
+color: #fff;
+
+
+}
+.slide-text{
+    margin-top: 158px;
+    margin-left: 39px;
+}
+
+
+
+
+
+.second-body{
+    height: 340px;
+    margin: 113px;
+    margin-top: 81px;
+    
+}
+.body-video{
+    margin-left: 19px;
+}
+.section{
+   
+    height:400px;
+    margin-top: 66px;
+}
+/*.section-second{
+    height: 324px;
+   
+    margin-top: 68px;
+
+    
+}*/
+@media screen and (max-width: 999px) {
+   #foot-1{
+       margin-top: 250px;
+   } 
+}
+.foot{
+    height: 700px;
+    background-color: black;
+    margin-top: 66px;
+}
+@media screen and (max-width: 577px){
+    .body-video{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:991px){
+    .second-img{
+        margin-top: 260px;
+    }
+}
+.foot-text{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color:#fff
+}
+.foot-textmain{
+    color: #fff;
+    font-size: 34px;
+    word-spacing: 2px;
+}
+.foot-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+    font-family: system-ui;
+   
+        
+}
+#col-first{
+    margin-top: 107px;
+}
+#col-second{
+    margin-top: 107px;
+
+}
+@media screen and ( max-width:998px){
+    #col-first{
+        margin-top: 56px;
+    }
+    #col-second{
+        margin-top: 39px;
+    }
+
+}
+a:link {
+    color: green;
+  }
+    
+.foot-link:hover{
+    color: #4d4e43;
+}
+
+    
